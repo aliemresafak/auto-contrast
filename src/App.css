@@ -1,0 +1,24 @@
+.content {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: 1s ease-in-out all;
+}
+
+.sub-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.sub-content h3 {
+  font-size: 3em;
+  font-weight: 600;
+}
+
+.sub-content h5 {
+  font-size: 2em;
+  font-weight: 400;
+}
